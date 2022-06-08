@@ -10,9 +10,22 @@ import Photo4 from "./images/cat4.png";
 
 export default function App(){
   return(
-
     <div className="contacts">
-      <Contact 
+      <Navbar></Navbar>
+      <Hero></Hero>
+      <Card
+        rating = {5.0}
+        reviewCount = {6}
+        country = "USA"
+        title = "Life lessons with Katie Zaferes"
+        price = {136}
+      ></Card>
+
+
+
+
+
+      {/* <Contact 
         img={Photo1}
         name="Mr. Whiskerson"
         phone="(212) 555-1234"
@@ -35,16 +48,14 @@ export default function App(){
           name="Pumpkin"
           phone="(0800) CAT KING"
           email="pumpkin@scrimba.com"
-      />
+      /> */}
 
 
 
 
 
 
-      {/* <Navbar></Navbar>
-      <Hero></Hero>
-      <Card></Card> */}
+      
     </div>
   )
 }

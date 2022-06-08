@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  
 }
 
 
@@ -9,6 +10,7 @@ body {
 }
 
 nav {
+  height: 70px;
   display: flex;
   /* background-color: blue; */
   padding: 20px 35px;
@@ -39,12 +41,12 @@ section {
 }
 
 .hero--photo_frame{
-  max-width: 395px;
+  max-width: 400px;
   align-self: center;
 }
 
 .hero--header {
-  margin-bottom: 10px;
+  margin-bottom: 16px;
 }
 
 .hero--text {
